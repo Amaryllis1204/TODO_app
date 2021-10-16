@@ -4,8 +4,8 @@
 }
 
 .container{
-    width: 600px;
-    height:500px;
+    width: 100%;
+    height:100%;
 }
 
 .index-table-warapper{
@@ -14,6 +14,15 @@
     border: 1px solid gray;
     border-radius:10px;
     background-color: #FFFFDD;
+}
+
+li{
+    font-size: 2em;
+}
+
+li .button{
+    font-size: 0.3em;
+    padding: 0 auto;
 }
 
 #todo_list{
