@@ -3,6 +3,9 @@ document.getElementById('add').addEventListener('click', ()=>{
     let todo = document.getElementById('todo').value;
     let add_todo = document.createElement('li');
     
+    //todoのテキストフィールドを空にする
+    document.getElementById('todo').value = '';
+
     //削除ボタンの付与
     let remove_button = document.createElement('button');
     remove_button.classList.add('btn' ,'btn-secondary');
