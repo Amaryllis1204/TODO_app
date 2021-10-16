@@ -16,6 +16,11 @@
     background-color: #FFFFDD;
 }
 
+#todo_list{
+    font-size: 10px;
+    height:100px;
+}
+
 #todo{
     border: 1px solid gray;
     border-radius: 10px;
